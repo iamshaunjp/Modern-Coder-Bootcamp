@@ -2,6 +2,10 @@ h1 {
     color: pink;
 }
 h2 {
-    color: crimson;
+    color: white;
     text-transform: uppercase;
+    background-color: crimson;
+    display: inline;
+    padding: 5px;
+    font-size: 1rem;
 }
