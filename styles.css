@@ -4,12 +4,12 @@ h1 {
 h2.primary {
     color: white;
     text-transform: uppercase;
-    background-color: crimson;
+    background-color: #dc143c;
     display: inline;
     padding: 5px;
     font-size: 1rem;
 }
 
 a.primary {
-    color: crimson;
+    color: #dc143c;
 }
