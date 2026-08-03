@@ -9,7 +9,10 @@ h2.primary {
     padding: 5px;
     font-size: 1rem;
 }
-
 a.primary {
     color: #dc143c;
+}
+a.primary[target="_blank"] {
+    border: 1px dashed #dc143c;
+    padding: 2px;
 }
