@@ -13,7 +13,7 @@ h2.primary {
     color: white;
     text-transform: uppercase;
     background-color: #dc143c;
-    /* display: inline; */
+    display: inline;
     padding: 5px;
     font-size: 1rem;
 }
@@ -23,4 +23,10 @@ a.primary {
 a.primary[target="_blank"] {
     border: 1px dashed #dc143c;
     padding: 2px;
+}
+a {
+    display: block;
+}
+li {
+    display: inline;
 }
