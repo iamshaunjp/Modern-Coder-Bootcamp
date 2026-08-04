@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-p {
+body {
     font-family: Nunito, sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -13,7 +13,7 @@ h2.primary {
     color: white;
     text-transform: uppercase;
     background-color: #dc143c;
-    display: inline;
+    /* display: inline; */
     padding: 5px;
     font-size: 1rem;
 }
