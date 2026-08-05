@@ -1,35 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 body {
-    font-family: Nunito, sans-serif;
-}
-h1, h2, h3, h4, h5, h6 {
-    font-family: Georgia, serif;
-}
-h1 {
-    color: pink;
-    width: 200px;
-    height: 200px;
-    padding: 10px;
-    border: 2px solid pink;
-    margin: 10px 5px 20px 15px;
-}
-h2.primary {
-    color: white;
-    text-transform: uppercase;
-    background-color: #dc143c;
-    display: inline;
-    padding: 5px;
-    font-size: 1rem;
-}
-a.primary {
-    color: #dc143c;
-}
-a.primary[target="_blank"] {
-    border: 1px dashed #dc143c;
-    padding: 2px;
-    width: 200px;
-    height: 100px;
-    margin-top: 50px;
-    display: inline-block;
+    margin: 0;
+    font-family: Inter, sans-serif;
 }
