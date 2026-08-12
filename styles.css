@@ -10,3 +10,22 @@ a {
 body {
     font-family: Inter, sans-serif;
 }
+
+.one {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: relative;
+    left: 50px;
+    top: 40px;
+}
+.two {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}
+.three {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
