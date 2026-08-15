@@ -11,30 +11,26 @@ body {
     font-family: Inter, sans-serif;
 }
 
-.one {
-    width: 200px;
-    height: 200px;
-    background-color: green;
-    position: relative;
-    left: 50px;
-    top: 40px;
-
-    span {
-        position: absolute;
-        bottom: 10px;
-        right: 10px;
-    }
+.boxes {
+    margin: 20px;
+    display: flex;
+    gap: 10px;
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    justify-content: space-between;
 }
-.two {
-    width: 100%;
+.boxes div {
+    width: 50px;
     height: 50px;
-    background-color: pink;
-    position: fixed;
-    top: 0;
-    right: 0;
+    background-color: lightblue;
 }
-.three {
-    width: 200px;
-    height: 200px;
-    background-color: blue;
+.services {
+    margin: 20px;
+    display: flex;
+    gap: 10px;
+}
+.services div {
+    padding: 10px;
+    background-color: lightgrey;
 }
