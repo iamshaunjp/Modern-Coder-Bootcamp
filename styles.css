@@ -11,32 +11,4 @@ body {
     font-family: Inter, sans-serif;
 }
 
-.boxes {
-    margin: 20px;
-    display: flex;
-    gap: 10px;
-    justify-content: space-between;
-}
-.boxes div {
-    width: 200px;
-    height: 50px;
-    background-color: lightblue;
-    flex-grow: 1;
-}
-.boxes div.three {
-    flex-grow: 2;
-    flex-shrink: 2;
-}
-.services {
-    margin: 20px;
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    /* flex-direction: column;
-    align-items: end; */
-}
-.services div {
-    padding: 10px;
-    background-color: lightgrey;
-    flex: 1 0 200px;
-}
+/* add your styles here */
