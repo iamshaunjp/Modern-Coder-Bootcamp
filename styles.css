@@ -11,34 +11,9 @@ body {
     font-family: Inter, sans-serif;
 }
 
-/* add your styles here */
-
-header {
-    background-color: lightgray;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    a {
-        margin-left: 10px;
-    }
-}
-.features {
-    margin: 40px;
-
-    h2 {
-        margin-bottom: 20px;
-    }
-    ul {
-        list-style-type: none;
-        display: flex;
-        gap: 10px;
-        flex-wrap: wrap;
-    }
-    li {
-        background-color: lightgray;
-        padding: 10px;
-        flex: 1 0 200px;
-    }
+.services {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
 }
