@@ -39,6 +39,6 @@ header {
     li {
         background-color: lightgray;
         padding: 10px;
-        flex: 1 1 200px;
+        flex: 1 0 200px;
     }
 }
