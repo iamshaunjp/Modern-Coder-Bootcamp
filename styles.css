@@ -13,34 +13,35 @@ body {
 
 /*  grid container  */
 .wrapper {
-   display: grid;
-   grid-template-columns: repeat(6, 1fr);
-   gap: 10px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
 }
 
 
 /* grid elements */
 .one {
-   padding: 20px;
-   background-color: lightblue;
+    padding: 20px;
+    background-color: lightblue;
 }
 .two {
-   padding: 20px;
-   background-color: lightcoral;
+    padding: 20px;
+    background-color: lightcoral;
 }
 .three {
-   padding: 20px;
-   background-color: lightyellow;
+    padding: 20px;
+    background-color: lightyellow;
 }
 .four {
-   padding: 20px;
-   background-color: lightgray;
+    padding: 20px;
+    background-color: lightgray;
 }
 .five {
-   padding: 20px;
-   background-color: lightpink;
+    padding: 20px;
+    background-color: lightpink;
 }
 .six {
-   padding: 20px;
-   background-color: lightsteelblue;
+    padding: 20px;
+    background-color: lightsteelblue;
 }
