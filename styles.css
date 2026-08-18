@@ -14,6 +14,7 @@ body {
 /*  grid container  */
 
 .wrapper {
+    margin: 20px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 10px;
@@ -50,4 +51,32 @@ body {
     padding: 20px;
     background-color: lightsteelblue;
     grid-column: span 6;
+}
+
+@media screen and (width < 780px) {
+
+.wrapper {
+    grid-template-columns: repeat(3, 1fr);
+}    
+
+.one {
+    grid-column: span 3;
+    grid-row: span 1;
+}
+.two {
+    grid-column: span 2;
+}
+.three {
+    grid-column: span 1;
+}
+.four {
+    grid-column: span 3;
+}
+.five {
+    grid-column: span 1
+}
+.six {
+    grid-column: span 2;
+}
+
 }
