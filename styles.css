@@ -38,4 +38,10 @@ form {
         display: inline-block;
         margin-bottom: 10px;
     }
+    input[type="checkbox"] {
+        width: auto;
+        margin-right: 2px;
+        position: relative;
+        top: 2px;
+    }
 }
