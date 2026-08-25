@@ -44,4 +44,12 @@ form {
         position: relative;
         top: 2px;
     }
+    button {
+        background-color: #3587df;
+        color: white;
+        padding: 6px;
+        display: block;
+        border: 0;
+        border-radius: 8px;
+    }
 }
