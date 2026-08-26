@@ -54,7 +54,18 @@ li {
     margin-right: 10px;
     border: 1px dotted grey;
 }
-li:first-child, li:last-child {
-    color: var(--primary);
-    border-color: var(--primary);
-}
+
+/* nth-child pseudo class */
+
+/* li:nth-child(4) {
+    color: crimson;
+} */
+/* li:nth-child(even) {
+    color: crimson;
+} */
+/* li:nth-child(3n) {
+    color: crimson;
+} */
+ li:nth-child(2n + 1) {
+    color: crimson;
+ }
