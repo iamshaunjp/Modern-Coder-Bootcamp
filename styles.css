@@ -32,16 +32,29 @@ section {
     > p {
         font-size: 1.2rem;
     }
-    a.btn {
-        display: inline-block;
-        padding: 6px 12px;
-        margin: 20px 0;
-        text-decoration: none;
-        background-color: var(--primary);
-        color: white;
-        border-radius: 4px;
-    }
-    a.btn:hover {
-        background-color: var(--primary-dark);
-    }
+}
+
+a.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 20px 0;
+    text-decoration: none;
+    background-color: var(--primary);
+    color: white;
+    border-radius: 4px;
+}
+a.btn:hover {
+    background-color: var(--primary-dark);
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px dotted grey;
+}
+li:first-child, li:last-child {
+    color: var(--primary);
+    border-color: var(--primary);
 }
