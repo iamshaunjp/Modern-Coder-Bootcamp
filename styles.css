@@ -6,6 +6,7 @@
     --bg: #232323;
     --text-color: #ababab;
     --primary: #0ed19d;
+    --primary-dark: #14a07b;
 }
 
 * {
@@ -30,5 +31,17 @@ p, li {
 section {
     > p {
         font-size: 1.2rem;
+    }
+    a.btn {
+        display: inline-block;
+        padding: 6px 12px;
+        margin: 20px 0;
+        text-decoration: none;
+        background-color: var(--primary);
+        color: white;
+        border-radius: 4px;
+    }
+    a.btn:hover {
+        background-color: var(--primary-dark);
     }
 }
