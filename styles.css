@@ -46,15 +46,3 @@ a.btn {
 a.btn:hover {
     background-color: var(--primary-dark);
 }
-
-li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px;
-    margin-right: 10px;
-    border: 1px dotted grey;
-}
-li:first-child, li:last-child {
-    color: var(--primary);
-    border-color: var(--primary);
-}
