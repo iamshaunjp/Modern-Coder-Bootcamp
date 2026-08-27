@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-/* variables */
-
-:root {
-    --bg: #232323;
-    --text-color: #ababab;
-    --primary: #0ed19d;
-    --primary-dark: #14a07b;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -18,54 +9,34 @@ a {
 }
 body {
     font-family: Inter, sans-serif;
-    background-color: var(--bg);
 }
 
-h1, h2 {
-    color: var(--primary);
-}
-p, li {
-    color: var(--text-color);
-}
-
-section {
-    > p {
-        font-size: 1.2rem;
-    }
-}
-
-a.btn {
-    display: inline-block;
-    padding: 6px 12px;
-    margin: 20px 0;
-    text-decoration: none;
-    background-color: var(--primary);
-    color: white;
-    border-radius: 4px;
-}
-a.btn:hover {
-    background-color: var(--primary-dark);
-}
-
-li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px;
-    margin-right: 10px;
-    border: 1px dotted grey;
-}
-
-/* nth-child pseudo class */
-
-/* li:nth-child(4) {
+/* p {
     color: crimson;
+}
+p {
+    color: green;
 } */
-/* li:nth-child(even) {
-    color: crimson;
+
+/* .btn {
+    background: blue;
+}
+a {
+    background: yellow;
 } */
-/* li:nth-child(3n) {
-    color: crimson;
-} */
- li:nth-child(2n + 1) {
-    color: crimson;
- }
+
+/* 
+
+element = 1
+class = 10
+[attr] = 10
+id = 100
+
+*/
+
+main section a[href="/"] {
+    color: red;
+}
+body section .btn {
+    color: blue;
+}
