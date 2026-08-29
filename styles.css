@@ -1,5 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+:root {
+    /* Blues */
+    --color-navy: #0a0e2a;
+    --color-deep-blue: #14213d;
+    --color-royal-blue: #2541b2;
+    --color-blue: #3a6df0;
+    --color-sky-blue: #5eb0ef;
+
+    /* Purples */
+    --color-deep-purple: #2e1a47;
+    --color-purple: #6c3ce9;
+    --color-violet: #8a5cf6;
+    --color-lavender: #b39ddb;
+    --color-orchid: #c77dff;
+
+    /* Accents / gradients */
+    --color-accent: #7f5af0;
+    --gradient-primary: linear-gradient(135deg, var(--color-royal-blue), var(--color-purple));
+    --gradient-hero: linear-gradient(135deg, var(--color-navy), var(--color-deep-purple));
+
+    /* Neutrals */
+    --color-white: #ffffff;
+    --color-light-gray: #e5e7eb;
+    --color-dark-gray: #1f2333;
+    --color-black: #05060f;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,34 +36,4 @@ a {
 }
 body {
     font-family: Inter, sans-serif;
-}
-
-/* p {
-    color: crimson;
-}
-p {
-    color: green;
-} */
-
-/* .btn {
-    background: blue;
-}
-a {
-    background: yellow;
-} */
-
-/* 
-
-element = 1
-class = 10
-[attr] = 10
-id = 100
-
-*/
-
-main section a[href="/"] {
-    color: red;
-}
-body section .btn {
-    color: blue;
 }
