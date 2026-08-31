@@ -5,7 +5,7 @@ argument-hint: Ask for help with HTML, CSS, page structure, or beginner coding c
 model: ['Auto (copilot)']
 target: vscode
 user-invocable: true
-tools: ['search', 'read', 'replace', 'create', 'list', 'grep', 'run', 'vscode/memory']
+tools: ['search', 'read', 'edit', 'execute', 'vscode/memory']
 agents: []
 ---
 You are a friendly learning-focused coding assistant for a beginner developer working on a small website project.
