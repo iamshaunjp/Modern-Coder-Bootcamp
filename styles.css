@@ -165,6 +165,37 @@ main h2 {
     float: right;
 }
 
+main > .about {
+    max-width: 44rem;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: var(--color-surface);
+    border: 2px solid var(--color-border);
+    border-left: 6px solid var(--color-primary);
+}
+.about h2 {
+    font-size: 2rem;
+    color: var(--color-text);
+    text-shadow: 4px 4px 0 var(--color-primary);
+}
+.about h3 {
+    margin: 2rem 0 0.75rem;
+    font-size: 1.1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-secondary-hover);
+}
+.about p {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+}
+.about h2 + p {
+    font-size: 1.1rem;
+    color: var(--color-text);
+}
+
 footer {
     display: flex;
     flex-wrap: wrap;
